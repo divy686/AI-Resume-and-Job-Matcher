@@ -50,7 +50,7 @@ AI-Resume-and-Job-Matcher/
 
 ### 1. Clone the Workspace
 ```bash
-git clone https://github.com
+git clone https://github.com/divy686/AI-Resume-and-Job-Matcher.git
 cd AI-Resume-and-Job-Matcher
 ```
 
@@ -58,7 +58,7 @@ cd AI-Resume-and-Job-Matcher
 Create a local `.env` file in the root directory:
 ```env
 GROQ_API_KEY=your_actual_groq_api_key_here
-```
+
 Install required Python libraries:
 ```bash
 pip install fastapi uvicorn groq sentence-transformers sklearn pdfminer.high_level python-dotenv
