@@ -86,10 +86,10 @@ Open **`http://localhost:5173`** in your browser to interface with the applicati
 ##  Screenshots
 
 ###  Centralized Analytics & Compatibility Matrix
-![Dashboard Core Analytics](./dashboard_metrics.png)
+![Dashboard Core Analytics](./images/dashboard_metrics.png)
 
 ###  Automated Document Synthesis & Simulation Labs
-![AI Advanced Workspaces](./ai_workspaces.png)
+![AI Advanced Workspaces](./images/ai_workspaces.png)
 
 
 
