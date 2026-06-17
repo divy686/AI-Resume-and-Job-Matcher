@@ -54,13 +54,13 @@ def process_resume_logic(resume_bytes, job_desc):
             temperature=0.1  # Low temperature se AI exact format follow karega
         )
         
-        # Raw response nikalna aur string se JSON object mein convert karna
+        
         raw_output = chat_completion.choices[0].message.content.strip()
         report_json = json.loads(raw_output)
         return report_json
         
     except Exception as e:
-        # Fallback agar AI JSON format kharab kar de
+        
         return {
             "match_percentage": round(similarity_score * 100, 2),
             "found_skills": ["Error extracting"],
