@@ -79,7 +79,19 @@ Boot up the hot-reloading React client playground:
 ```bash
 npm run dev
 ```
-Open **`http://localhost:5173`** in your browser to interface with the application! 🎉
+Open **`http://localhost:5173`** in your browser to interface with the application! 
+
+---
+
+##  Screenshots
+
+###  Centralized Analytics & Compatibility Matrix
+![Dashboard Core Analytics](./dashboard_metrics.png)
+
+###  Automated Document Synthesis & Simulation Labs
+![AI Advanced Workspaces](./ai_workspaces.png)
+
+
 
 ---
 
