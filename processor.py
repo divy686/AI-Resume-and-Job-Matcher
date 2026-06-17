@@ -55,9 +55,9 @@ def process_resume_logic(resume_bytes, job_desc):
         
         raw_output = chat_completion.choices[0].message.content.strip()
         
-        # 🔥 ADVANCED WORKAROUND: Markdown code markers blocks ko clean karna agar AI galti se bhej de
+    
         if raw_output.startswith("```"):
-            # json ya markdown words hatana
+        
             raw_output = raw_output.strip("```").strip("json").strip("markdown").strip()
             
         report_json = json.loads(raw_output)
