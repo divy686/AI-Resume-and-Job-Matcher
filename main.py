@@ -6,7 +6,7 @@ import io
 import os
 import jwt
 from datetime import datetime, timedelta
-import hashlib # <--- Passlib ki jagah ye inbuilt tool use karenge
+import hashlib 
 
 from pymongo import MongoClient
 from pdfminer.high_level import extract_text
