@@ -1,5 +1,5 @@
 # AI Resume and Job Matcher 🚀
-> An advanced, production-grade full-stack career intelligence suite that performs deep semantic context parsing and matrix analysis on candidate resumes against target job descriptions.
+> An advanced, production-grade full-stack career intelligence suite that performs deep semantic context parsing and matrix analysis on candidate resumes against target job descriptions.    
 
 ---
 
