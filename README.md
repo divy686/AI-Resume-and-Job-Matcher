@@ -95,5 +95,3 @@ Open **`http://localhost:5173`** in your browser to interface with the applicati
 
 ---
 
-##  Licence Matrix
-Distributed under the MIT License. See `LICENSE` for more structural parameter details.
