@@ -64,7 +64,7 @@ AI-Resume-and-Job-Matcher/
 
 ### 1. Clone the Workspace
 ```bash
-git clone https://github.com/divy686/AI-Resume-and-Job-Matcher
+git clone https://github.com/divy686/AI-Resume-and-Job-Matcher.git
 cd AI-Resume-and-Job-Matcher
 ```
 
