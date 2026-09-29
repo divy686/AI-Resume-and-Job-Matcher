@@ -80,7 +80,7 @@ pip install fastapi uvicorn groq sentence-transformers sklearn pdfminer.high_lev
 ```
 Boot up the local API Microservice:
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 *The server will initialize the BERT embedding matrix, establish stable handshakes with your local MongoDB, and begin listening dynamically on `http://localhost:8000`*
 
