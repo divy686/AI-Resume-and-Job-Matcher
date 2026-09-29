@@ -98,7 +98,7 @@ async def generate_cover_letter(job_description: str = Form(...), resume_file: U
         resume_text = extract_text(io.BytesIO(contents))
         client = Groq(api_key=os.getenv("GROQ_API_KEY"))
         prompt = f"Write a professional cover letter.\nResume:\n{resume_text}\nJD:\n{job_description}"
-        chat_completion = client.chat.completions.create(messages=[{"role": "user", "content": prompt}], model="llama-3.3-70b-versatile")
+        chat_completion = client.chat.completions.create(messages=[{"role": "user", "content": prompt}], model="openai/gpt-oss-120b")
         return {"status": "success", "cover_letter": chat_completion.choices[0].message.content}
     except Exception as e: raise HTTPException(status_code=500, detail=str(e))
 
@@ -107,6 +107,6 @@ async def generate_interview_prep(job_description: str = Form(...)):
     try:
         client = Groq(api_key=os.getenv("GROQ_API_KEY"))
         prompt = f"Generate 5 hardest technical questions and ideal answers for this JD:\n{job_description}"
-        chat_completion = client.chat.completions.create(messages=[{"role": "user", "content": prompt}], model="llama-3.3-70b-versatile")
+        chat_completion = client.chat.completions.create(messages=[{"role": "user", "content": prompt}], model="openai/gpt-oss-120b")
         return {"status": "success", "interview_prep": chat_completion.choices[0].message.content}
     except Exception as e: raise HTTPException(status_code=500, detail=str(e))
