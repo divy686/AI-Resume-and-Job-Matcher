@@ -1,5 +1,5 @@
---find-links https://download.pytorch.org/whl/cpu
-torch--cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
 streamlit
 pdfminer.six
 sentence-transformers
