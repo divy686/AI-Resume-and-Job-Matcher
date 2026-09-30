@@ -1,0 +1,6 @@
+.env
+__pycache__/
+frontend/
+frontend-react.zip
+frontend-react/node_modules/
+frontend-react/dist/
